@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+
+# local settings (paths on this machine)
+.env
+
+# extension build output
+build/
+.plasmo/
+*.tsbuildinfo

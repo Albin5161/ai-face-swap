@@ -1,0 +1,19 @@
+{
+  "name": "air-local-server",
+  "version": "1.0.0",
+  "description": "Local FaceFusion bridge server for AI Face Swap",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
